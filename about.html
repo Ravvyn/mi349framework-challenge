@@ -3,17 +3,28 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page</title>
+    <title>Hollogen Games</title>
+    <link rel="stylesheet" href="midnight-green.css" type="text/css">
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>About Page</h1>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-      </ul>
+      <header>
+        <a href="./index.html"><img src="./images/cognivite-small.png"></a> 
+        <label for="nav"><i class="fas fa-bars"></i></label>
+      </header>
+      <input type="checkbox" id="nav" hidden checked>
+      <div overflow>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Games</a></li>
+            <li active><a href="./about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+      </div>
     </nav>
+    <h1>About Us</h1>
+
     <script src="index.js"></script>
   </body>
 </html>

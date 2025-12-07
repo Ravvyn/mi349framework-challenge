@@ -3,17 +3,52 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Hollogen Games</title>
+    <link rel="stylesheet" href="midnight-green.css" type="text/css">
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Home</h1>
     <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
+      <header>
+        <a href="#"><img src="./images/Worlds Of Wokrera Logo.png" width="100"></a> 
+        <label for="nav"><i class="fas fa-bars"></i></label>
+      </header>
+      <input type="checkbox" id="nav" hidden checked>
+      <div overflow>
+          <ul>
+            <li active><a href="#">Home</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+      </div>
     </nav>
+
+    <h1>Hollogen Games</h1>
+    <div class="gameDisplay">
+      <figure>
+        <a href=><img src="/images/BlightSpeedCoverImage.png" alt="BlightSpeedCoverImage"></a>
+        <figcaption>
+          <h6>Blight Speed</h6>
+        </figcaption>
+      </figure><figure>
+        <a href=><img src="/images/BlightSpeedCoverImage.png" alt="BlightSpeedCoverImage"></a>
+        <figcaption>
+          <h6>Blight Speed</h6>
+        </figcaption>
+      </figure><figure>
+        <a href=><img src="/images/BlightSpeedCoverImage.png" alt="BlightSpeedCoverImage"></a>
+        <figcaption>
+          <h6>Blight Speed</h6>
+        </figcaption>
+      </figure><figure>
+        <a href=><img src="/images/BlightSpeedCoverImage.png" alt="BlightSpeedCoverImage"></a>
+        <figcaption>
+          <h6>Blight Speed</h6>
+        </figcaption>
+      </figure>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
